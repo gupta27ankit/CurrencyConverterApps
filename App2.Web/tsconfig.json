@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": [ "es6" ],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

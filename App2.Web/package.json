@@ -1,0 +1,26 @@
+{
+  "name": "app2.web",
+  "version": "0.0.0",
+  "description": "App2.Web",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "postman-request": "^2.88.1-postman.31",
+    "request": "^2.88.2"
+  }
+}

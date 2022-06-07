@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Currency Converter</title>
+</head>
+<body>
+    <div>
+        {{>header}}
+
+        <form>
+            <table>
+                <tr><td>Currency Code From:</td><td><input id="currencyCodeFrom" placeholder="currencyCodeFrom" /></td></tr>
+                <tr><td>Currency Code To:</td><td><input id="currencyCodeTo" placeholder="currencyCodeTo" /></td></tr>
+                <tr><td>Amount:</td><td><input id="amount" placeholder="amount" /></td></tr>
+                <tr><td colspan="2"><button type="submit">Convert</button></td></tr>
+                <tr><td>Converted Amount:</td><td>{{convertedAmount}}</td></tr>
+            </table>
+
+            {{error}}
+        </form>
+    </div>
+    <script src="/js/currencyConverterView.js"></script>
+</body>
+</html>
